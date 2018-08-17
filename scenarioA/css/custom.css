@@ -196,11 +196,23 @@ abbr {
 
 .bullet {
 
-	padding-top: 6px !important;
-	padding-bottom: 6px !important;
+	padding-top: 4px !important;
+	padding-bottom: 3px !important;
+	font-size: 19px !important;
+		line-height: 32px !important;
 
 }
 
+/* used when bullets are more than short points, and run 2 full lines or more */
+
+.multi-bullet {
+
+	padding-top: 7px !important;
+	padding-bottom: 7px !important;
+	font-size: 19px !important;
+		line-height: 32px !important;
+
+}
 /* font size in li of breadcrumb */
 
 .cust-breadcrumb {
