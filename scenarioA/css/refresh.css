@@ -8,7 +8,6 @@ h1 {
 	font-size: 37px !important;
 	font-weight: 600 !important;
 	font-family: 'Lato', sans-serif;
-	margin-bottom: 20px;
 
 }
 
@@ -74,13 +73,18 @@ h1 {
 }
 
 /* larger font size for text-heavy content */
-.paragaph-content
+.p-content
 
 {
 
-font-size: 18px !important;
+	font-size: 19px !important;
+	font-family: 'Noto sans', sans-serif !important;
+	line-height: 32px !important;
+	padding-top: 8px !important;
+	padding-bottom: 8px !important;
 
 }
+
 
 .prm-flpr {
 
@@ -137,16 +141,12 @@ border-bottom: 2px solid RGB(255, 255, 255); }
 
 .ch5 {
 
-	font-size: 20px !important;
+	font-size: 19px !important;
 
 }
 
 
-p {
 
-	padding-top: 8px !important;
-	padding-bottom: 8px !important;
-}
 
 ul.menu li {
 
@@ -157,9 +157,8 @@ ul.menu li {
 p, ul, li {
 
 
-	font-size: 19px !important;
-	font-family: 'Noto sans', sans-serif !important;
-	line-height: 32px !important;
+	font-size: 17px !important;
+	line-height: 26px !important;
 
 
 
@@ -197,11 +196,23 @@ abbr {
 
 .bullet {
 
-	padding-top: 6px !important;
-	padding-bottom: 6px !important;
+	padding-top: 4px !important;
+	padding-bottom: 3px !important;
+	font-size: 19px !important;
+		line-height: 32px !important;
 
 }
 
+/* used when bullets are more than short points, and run 2 full lines or more */
+
+.multi-bullet {
+
+	padding-top: 7px !important;
+	padding-bottom: 7px !important;
+	font-size: 19px !important;
+		line-height: 32px !important;
+
+}
 /* font size in li of breadcrumb */
 
 .cust-breadcrumb {
