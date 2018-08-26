@@ -146,6 +146,11 @@ border-bottom: 2px solid RGB(255, 255, 255); }
 }
 
 
+.mr-home {
+
+	font-size: 17px !important;
+
+}
 
 
 ul.menu li {
@@ -331,4 +336,24 @@ background-color: #F8F8F8;
 
 
   text-align: center;
+}
+
+
+.edge-color {
+    background-color: #eee;
+    display: inline-block;
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.img-banner {
+
+  background-image: url("../images/canada-bkg.jpg");
+  background-repeat: no-repeat;
+  background-size:100% auto;
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+
 }
