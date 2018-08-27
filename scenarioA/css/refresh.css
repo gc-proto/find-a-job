@@ -42,7 +42,7 @@ h4 {
 
 h5 {
 
-	font-size: 21px !important;
+	font-size: 23px !important;
 	font-weight: 600 !important;
 	font-family: 'Lato', sans-serif;
 }
@@ -338,6 +338,10 @@ background-color: #F8F8F8;
   text-align: center;
 }
 
+.text-banner {
+
+	color: black;
+}
 
 .edge-color {
     background-color: #eee;
@@ -349,11 +353,12 @@ background-color: #F8F8F8;
 
 .img-banner {
 
-  background-image: url("../images/canada-bkg.jpg");
+/*  background-image: url("../images/canada-bkg.jpg"); */
+	background-color: #ccc;
   background-repeat: no-repeat;
   background-size:100% auto;
   width: 100%;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 
 }
