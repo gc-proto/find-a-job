@@ -348,19 +348,7 @@ background-color: #F8F8F8;
 
 }
 
-.text-background-1 {
 
-		background-color: #26374a;
-		padding-top: 15px;
-
-}
-
-
-.text-background-2 {
-
-		background-color: #26374a;
-		padding-bottom: 15px;
-}
 
 .your-gov {
 	 background-image: url("../images/your-gov.jpg");
@@ -381,17 +369,6 @@ background-color: #F8F8F8;
     padding-bottom: 25px;
 }
 
-.img-banner {
-
-background-image: url("../images/canada-bkg.jpg");
-	background-color: #26374a;
-  background-repeat: no-repeat;
-  background-size:100% auto;
-  width: 100%;
-  padding-top: 45px;
-  padding-bottom: 45px;
-
-}
 
 #wb-info {
 
